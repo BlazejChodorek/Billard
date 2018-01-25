@@ -1,0 +1,41 @@
+﻿Build started 2018-01-25 10:14:21.
+     1>Project "C:\Users\admin\Documents\Visual Studio 2013\Projects\Billard\ConsoleApplication1\ConsoleApplication1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\admin\Documents\Visual Studio 2013\Projects\Billard\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/include/" /I"C:\Dev\PhysX-3.2.5_PC_SDK_Core\Include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\ConsoleApplication1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\admin\Documents\Visual Studio 2013\Projects\Billard\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/include/" /I"C:\Dev\PhysX-3.2.5_PC_SDK_Core\Include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ConsoleApplication1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ConsoleApplication1.cpp
+         ConsoleApplication1.cpp
+     1>c:\users\admin\documents\visual studio 2013\projects\billard\consoleapplication1\consoleapplication1.cpp(212): warning C4305: 'argument' : truncation from 'double' to 'physx::PxReal'
+     1>c:\users\admin\documents\visual studio 2013\projects\billard\consoleapplication1\consoleapplication1.cpp(226): warning C4305: 'argument' : truncation from 'double' to 'physx::PxReal'
+     1>c:\users\admin\documents\visual studio 2013\projects\billard\consoleapplication1\consoleapplication1.cpp(240): warning C4305: 'argument' : truncation from 'double' to 'physx::PxReal'
+     1>c:\users\admin\documents\visual studio 2013\projects\billard\consoleapplication1\consoleapplication1.cpp(254): warning C4305: 'argument' : truncation from 'double' to 'physx::PxReal'
+     1>c:\users\admin\documents\visual studio 2013\projects\billard\consoleapplication1\consoleapplication1.cpp(266): warning C4305: 'argument' : truncation from 'double' to 'physx::PxReal'
+     1>c:\users\admin\documents\visual studio 2013\projects\billard\consoleapplication1\consoleapplication1.cpp(352): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\admin\documents\visual studio 2013\projects\billard\consoleapplication1\consoleapplication1.cpp(353): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\admin\documents\visual studio 2013\projects\billard\consoleapplication1\consoleapplication1.cpp(354): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\admin\documents\visual studio 2013\projects\billard\consoleapplication1\consoleapplication1.cpp(355): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\admin\documents\visual studio 2013\projects\billard\consoleapplication1\consoleapplication1.cpp(356): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\admin\documents\visual studio 2013\projects\billard\consoleapplication1\consoleapplication1.cpp(366): warning C4305: 'argument' : truncation from 'double' to 'physx::PxReal'
+     1>c:\users\admin\documents\visual studio 2013\projects\billard\consoleapplication1\consoleapplication1.cpp(432): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\admin\documents\visual studio 2013\projects\billard\consoleapplication1\consoleapplication1.cpp(529): warning C4305: 'argument' : truncation from 'double' to 'GLclampf'
+     1>c:\users\admin\documents\visual studio 2013\projects\billard\consoleapplication1\consoleapplication1.cpp(550): warning C4305: 'argument' : truncation from 'double' to 'physx::PxReal'
+     1>c:\users\admin\documents\visual studio 2013\projects\billard\consoleapplication1\consoleapplication1.cpp(589): warning C4305: '+=' : truncation from 'double' to 'GLfloat'
+     1>c:\users\admin\documents\visual studio 2013\projects\billard\consoleapplication1\consoleapplication1.cpp(591): warning C4305: '-=' : truncation from 'double' to 'GLfloat'
+     1>c:\users\admin\documents\visual studio 2013\projects\billard\consoleapplication1\consoleapplication1.cpp(650): warning C4244: '+=' : conversion from 'const GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\admin\documents\visual studio 2013\projects\billard\consoleapplication1\consoleapplication1.cpp(652): warning C4244: '-=' : conversion from 'const GLdouble' to 'GLfloat', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\admin\Documents\Visual Studio 2013\Projects\Billard\Debug\ConsoleApplication1.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Dev\PhysX-3.2.5_PC_SDK_Core\Lib\win32" "C:\Users\admin\Documents\Visual Studio 2013\Projects\Billard\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/Win32\glew32.lib" "C:\Users\admin\Documents\Visual Studio 2013\Projects\Billard\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/Win32\glfw3dll.lib" "C:\Users\admin\Documents\Visual Studio 2013\Projects\Billard\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/Win32\freeglut.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\admin\Documents\Visual Studio 2013\Projects\Billard\Debug\ConsoleApplication1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\admin\Documents\Visual Studio 2013\Projects\Billard\Debug\ConsoleApplication1.lib" /MACHINE:X86 Debug\ConsoleApplication1.obj
+         Debug\stdafx.obj
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>PhysX3Extensions.lib(ExtCpuWorkerThread.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3Extensions.lib(ExtCpuWorkerThread.obj)' or at 'C:\Users\admin\Documents\Visual Studio 2013\Projects\Billard\Debug\vc100.pdb'; linking object as if no debug info
+     1>PhysX3Extensions.lib(ExtDefaultCpuDispatcher.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3Extensions.lib(ExtDefaultCpuDispatcher.obj)' or at 'C:\Users\admin\Documents\Visual Studio 2013\Projects\Billard\Debug\vc100.pdb'; linking object as if no debug info
+     1>PhysX3Extensions.lib(ExtDefaultErrorCallback.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3Extensions.lib(ExtDefaultErrorCallback.obj)' or at 'C:\Users\admin\Documents\Visual Studio 2013\Projects\Billard\Debug\vc100.pdb'; linking object as if no debug info
+     1>PhysX3Extensions.lib(ExtDefaultSimulationFilterShader.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3Extensions.lib(ExtDefaultSimulationFilterShader.obj)' or at 'C:\Users\admin\Documents\Visual Studio 2013\Projects\Billard\Debug\vc100.pdb'; linking object as if no debug info
+     1>PhysX3Extensions.lib(ExtRigidBodyExt.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3Extensions.lib(ExtRigidBodyExt.obj)' or at 'C:\Users\admin\Documents\Visual Studio 2013\Projects\Billard\Debug\vc100.pdb'; linking object as if no debug info
+     1>PhysX3Extensions.lib(ExtSimpleFactory.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3Extensions.lib(ExtSimpleFactory.obj)' or at 'C:\Users\admin\Documents\Visual Studio 2013\Projects\Billard\Debug\vc100.pdb'; linking object as if no debug info
+         ConsoleApplication1.vcxproj -> C:\Users\admin\Documents\Visual Studio 2013\Projects\Billard\Debug\ConsoleApplication1.exe
+     1>Done Building Project "C:\Users\admin\Documents\Visual Studio 2013\Projects\Billard\ConsoleApplication1\ConsoleApplication1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.57
